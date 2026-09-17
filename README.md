@@ -16,25 +16,7 @@ SignalLab is a cross-disciplinary console-based Java application designed to sim
 - **Compilation Tool:** Java Compiler (javac CLI infrastructure)
 - **Operating Environment:** Windows Command Prompt / Terminal
 
-## 🚀 Steps to Install & Run the Project
 
-### 1. Project Directory Navigation
-Open your command prompt or terminal and navigate into the root directory of your project folder:
-```bash
-cd C:\SignalLab
-```
-
-### 2. Compilation
-Compile all localized package source files into a binary classpath destination using the following command:
-```bash
-javac -sourcepath src -d bin src/com/signallab/Main.java
-```
-
-### 3. Execution
-Launch the interactive command-line simulator using this execution command:
-```bash
-java -cp bin com.signallab.Main
-```
 
 ## 🧪 Instructions for Testing
 To test the pipeline and confirm that the error correction and parameter validations are working correctly, perform these test validation profiles during execution:
@@ -53,3 +35,18 @@ When prompted in the menu console, input the following configuration parameters:
 - **Signal Frequency:** Enter `10`
 - **Sampling Rate:** Enter `15` (Intentionally invalid; breaks the condition $15 \ge 2 \cdot 10$)
 - *Expected Output:* The pipeline gracefully breaks immediately, raising an `InvalidSignalException` with the message: `Nyquist Shannon violation!`. This proves the application's robust error-handling logic without crashing.
+## How to Run
+
+### Prerequisites
+
+Make sure the following are installed:
+
+- Java JDK 8 or higher
+- Git
+- Command Prompt / Terminal
+
+Check Java installation:
+
+```bash
+java -version
+javac -version
