@@ -328,3 +328,8 @@ https://github.com/abhyansh24bec10027-spec/SIGNAL-LAB
 SIGNAL-LAB provides a command-line simulation of key digital communication and signal-processing operations using Java. The project combines signal generation and processing with Hamming error-control coding, noisy-channel simulation, validation, exception handling, and file-based logging.
 
 The application demonstrates how Java programming concepts can be applied to implement a modular digital communication simulation that can be compiled and executed directly from a terminal.
+### Clone the Repository
+
+```bash
+git clone https://github.com/abhyansh24bec10027-spec/SIGNAL-LAB.git
+cd SIGNAL-LAB
