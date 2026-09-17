@@ -47,6 +47,15 @@ Make sure the following are installed:
 
 Check Java installation:
 
+
 ```bash
 java -version
 javac -version
+### Clone the Repository
+
+```bash
+git clone https://github.com/abhyansh24bec10027-spec/SIGNAL-LAB.git
+cd SIGNAL-LAB
+javac -sourcepath src -d bin src/com/signallab/Main.java
+java -cp bin com.signallab.Main
+
